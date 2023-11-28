@@ -24,6 +24,23 @@ body {
 
 .features-container {}
 
+/* Block dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+}
+
+.block-divider--orange {
+    background-color: #f05f40;
+}
+
+.block-divider--short {
+    width: 35px;
+}
+
 /* Jumbotron */
 
 /* overrides bootstrap default styles */
@@ -31,14 +48,19 @@ body {
     background-color: transparent;
 }
 
-.jumbotron-header {
+.jumbotron h1 {
     color: white;
     font-weight: bold;
     margin-bottom: 30px;
 }
 
-.jumbotron-small {
+.jumbotron .lead {
+    color: #a7a7a7;
+    margin: 25px 0;
+}
+
+.jumbotron small {
     font-size: 60%;
-    font-family: italic;
+    font-style: italic;
     color: #d0d0d0;
 }
